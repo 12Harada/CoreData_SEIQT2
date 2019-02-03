@@ -13,6 +13,8 @@
 		736C93FB220708BE0035A3A9 /* CoreData_SEIQT2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 736C93F9220708BE0035A3A9 /* CoreData_SEIQT2.xcdatamodeld */; };
 		736C93FD220708C00035A3A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736C93FC220708C00035A3A9 /* Assets.xcassets */; };
 		736C9400220708C00035A3A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736C93FE220708C00035A3A9 /* LaunchScreen.storyboard */; };
+		736C940922070AE90035A3A9 /* Seiqt+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736C940722070AE90035A3A9 /* Seiqt+CoreDataClass.swift */; };
+		736C940A22070AE90035A3A9 /* Seiqt+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736C940822070AE90035A3A9 /* Seiqt+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		736C93FC220708C00035A3A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736C93FF220708C00035A3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		736C9401220708C00035A3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736C940722070AE90035A3A9 /* Seiqt+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Seiqt+CoreDataClass.swift"; sourceTree = "<group>"; };
+		736C940822070AE90035A3A9 /* Seiqt+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Seiqt+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		736C93F1220708BD0035A3A9 /* CoreData_SEIQT2 */ = {
 			isa = PBXGroup;
 			children = (
+				736C940722070AE90035A3A9 /* Seiqt+CoreDataClass.swift */,
+				736C940822070AE90035A3A9 /* Seiqt+CoreDataProperties.swift */,
 				736C93F2220708BD0035A3A9 /* AppDelegate.swift */,
 				736C93F4220708BD0035A3A9 /* ViewController.swift */,
 				736C93F6220708BD0035A3A9 /* Main.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				736C93F5220708BD0035A3A9 /* ViewController.swift in Sources */,
 				736C93F3220708BD0035A3A9 /* AppDelegate.swift in Sources */,
+				736C940922070AE90035A3A9 /* Seiqt+CoreDataClass.swift in Sources */,
 				736C93FB220708BE0035A3A9 /* CoreData_SEIQT2.xcdatamodeld in Sources */,
+				736C940A22070AE90035A3A9 /* Seiqt+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
